@@ -27,7 +27,7 @@ on:
           - detailed
 
 env: 
-  DOTNET_VERSION: '10.0.x'
+  DOTNET_VERSION: '10.0.103'
   BUILD_CONFIGURATION: ${{ github.event.inputs.build_configuration }}
   LOG_LEVEL: ${{ github.event.inputs.log_level }}
 
